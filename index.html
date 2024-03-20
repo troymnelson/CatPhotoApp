@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <main>
+            <h1>CatPhotoApp</h1>
+            <section>
+                <h2>Cat Photos</h2>
+                <p>See more <a href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
+                <img src="assets/relaxing-cat.jpg" alt="A cute picture of a cat lying on it's back">
+            </section>
+            <section>
+                <h2>Cat Lists</h2>
+                <h3>Things cats love:</h3>
+                <ul>
+                    <li>cat nip</li>
+                    <li>laser pointers</li>
+                    <li>lasagna</li>
+                </ul>
+                <figure>
+                    <img src="assets/lasagna.jpg" alt="A piece of lasagna on a plate">
+                    <figcaption>Cats <em>love</em> lasagna.</figcaption>
+                </figure>
+                <h3>Top 3 things cats hate:</h3>
+                <ol>
+                    <li>flea treatment</li>
+                    <li>thunder</li>
+                    <li>other cats</li>
+                </ol>
+                <figure>
+                    <img src="assets/cats.jpg" alt="Five cats playing in a field">
+                    <figcaption>Cats <strong>hate</strong> other cats.</figcaption>
+                </figure>
+            </section>
+            <section>
+                <h2>Cat Form</h2>
+                <form action="https://freecatphotoapp.com/submit-cat-photo">
+                    <fieldset>
+                        <legend>Is your cat an indoor or outdoor cat?</legend>
+                        <input type="radio" id="indoor" name="indoor-outdoor" value="indoor"> Indoor
+                        <input type="radio" id="outdoor" name="indoor-outdoor" value="outdoor"> Outdoor
+                    </fieldset>
+                    <fieldset>
+                        <legend>What's your cat's personality?</legend>
+                        <input type="checkbox" id="loving" name="personlity" value="loving"> <label for="loving">Loving</label>
+                        <input type="checkbox" id="lazy" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+                        <input type="checkbox" id="energetic" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+                        <input type="checkbox" id="satan" name="personality" value="satan"> <label for="satan">Literally satan himself</label>
+                    </fieldset>
+                    <input type="text" name="catphotourl" placeholder="cat photo URL">
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>
